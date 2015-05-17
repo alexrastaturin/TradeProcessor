@@ -48,7 +48,7 @@ class Application {
         try {
             $this->controller->indexAction();
         } catch (\Exception $e) {
-            echo json_encode(['result' => 'error', 'message' => $e->getMessage() . $e->getTraceAsString()]);
+            echo json_encode(['result' => 'error', 'message' => $e->getMessage()]);
         }
     }
 

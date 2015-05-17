@@ -26,7 +26,8 @@
     <!-- Main component for a primary marketing message or call to action -->
     <div class="jumbotron">
         <h1>Tradeprocessor Visualization</h1>
-        <button class="btn btn-success btn-lg" id="start">Start!</button>
+        <p>Sumbit test messages to consumer endpoint</p>
+        <button class="btn btn-success btn-lg" id="start">Send messages!</button>
 
         <pre id="log" style="display: none"></pre>
 
